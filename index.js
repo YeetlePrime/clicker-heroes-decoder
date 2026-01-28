@@ -46,6 +46,4 @@ window.addEventListener("load", () => {
     const encoded_value = encode(decoded_object);
     encoded_textarea.value = encoded_value;
   });
-
-  console.log(encoded_textarea, decoded_textarea, decode_button, encode_button);
 });
